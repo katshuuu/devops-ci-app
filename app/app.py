@@ -5,7 +5,7 @@ from flask import Flask, jsonify
 
 def health():
     """Проверка работоспособности службы."""
-    return jsonify(status="unhealthy")
+    return jsonify(status="ok")
 
 
 def index():
