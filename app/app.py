@@ -10,7 +10,7 @@ def health():
 
 def index():
     """Сведения о службе."""
-    return jsonify(service="devops-ci-app", version="1.1.0-shustalova", status="running")
+    return jsonify(service="devops-ci-app", version="1.0.0", status="running")
 
 
 def create_app():
